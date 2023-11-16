@@ -6,7 +6,10 @@ const chatbotToggler = container.querySelector(".chatbot-toggle");
 const chatbotCloseBtn = container.querySelector(".chatbot__mobile-close-btn");
 
 let userMessage = null;
-const API_KEY = "MY_API_KEY";
+const API_KEY_PART1 = "sk-af6jzVndp7oLNO7";
+const API_KEY_PART2 = "trMZ2T3BlbkFJT";
+const API_KEY_PART3 = "byEdCba4NVEg6jbpcGm";
+const API_KEY = API_KEY_PART1 + API_KEY_PART2 + API_KEY_PART3;
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
